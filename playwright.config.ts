@@ -35,12 +35,10 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'chrome',
       use: {
         ...devices['Desktop Chrome'],
-        launchOptions: {
-          executablePath: 'C:\\Users\\gabriel.gavan\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe',
-        },
+        channel: 'chrome',
       },
     },
 
